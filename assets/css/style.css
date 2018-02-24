@@ -238,9 +238,12 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width:980px) and (min-width:769px){
-  p {
-    color: red;
+@media screen and (max-width:980px) and (min-width:769px){ 
+  .main-section {
+    width: 65%;
+  }
+  .sidebar {
+    width: 30%;
   }  
 }
 
@@ -267,8 +270,8 @@ input[type=submit] {
   [section*] {
     width: 100%;
   }
-.main-section {
-  max-width: 640px;
+  .main-section {
+    max-width: 640px;
   }
   .sidebar {
     width: 100%;
