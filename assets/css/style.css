@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 350px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -236,4 +236,31 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width:980px) and (min-width:769px){
+  
+}
+
+@media screen and (max-width:768px) and (min-width:640px){
+  p {
+    color: red;
+  }    
+  [section*] {
+    width: 100%;
+}
+.main-section {
+  max-width: 768px;
+}
+  .sidebar {
+    width: 100%;
+    max-width: 768px;
+  }  
+  #logo {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:640px){
+  /* Make the position of the header static (the default positioning) when the screen is 640px wide. */
 }
